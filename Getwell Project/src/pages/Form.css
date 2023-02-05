@@ -1,0 +1,116 @@
+.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    height :1500px;
+    background : linear-gradient(
+        rgba(255,255,255,0.6),
+        rgba(255,255,255,0.6)
+        ),
+    url("https://img.freepik.com/free-vector/brain-lightbulb-business-team-solving-problem-innovative-solution-problem-solving-crisis-management-concept-white-background_335657-1680.jpg?w=2000") center;
+}
+
+.headerForm {
+    color : teal;
+    font-size: 50px;
+}
+.mainForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding : 30px 50px;
+    height: 900px;
+    background-color : white;
+    border-radius : 89% 11% 96% 4% / 7% 86% 14% 93% ;
+    -webkit-box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+    -moz-box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+    box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+}
+
+.formBody{
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    flex-direction:column ;
+}
+
+.formLable{
+    font-size: 20px;
+    font-weight: bolder ;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+.formInput{
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+option{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.btnBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonForm{
+    color: rgb(255, 255, 255);
+    width:fit-content ;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: teal;
+    padding : 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tableContainer{
+    background-color: #fff;
+    margin-top: 30px;
+    -webkit-box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+    -moz-box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+    box-shadow: -1px -1px 65px -4px rgba(14,100,128,1);
+}
+
+.dataTable{
+    padding : 80px 10px;
+    height: 400px;
+    width: 100%;
+
+}
+
+.dataHead{
+    font-size: 40px;
+    
+}
+
+.tableData{
+    color: darkgreen;
+
+}
+
+.formTH{
+    border: 1px solid black;
+    padding : 5px 40px;
+    border-radius: 24px;
+}
+
+.formTH{
+    border: 1px solid black;
+    border-radius: 24px;
+    text-align: center;
+    background-color: aqua;
+}
